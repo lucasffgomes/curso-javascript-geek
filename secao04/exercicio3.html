@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção 04 - Exercício 3</title>
+</head>
+<body>
+    <h1>Seção 04 - Exercício 3</h1>
+
+    <script>
+        // Crie uma funcao que receba um valor em anos de experiencia de um funcionario e retorne
+        // o nivel de experiencia deste conforme:
+        // de 0 a 2 anos: Junior
+        // de 3 a 5 anos: Pleno
+        // de 6 acima: Senior
+
+        // resolucao do exercicio
+        function experiencia(anos) {  
+            if(anos > 0 && anos <= 2) {
+                console.log('Junior.');
+            } else if(anos >= 3 && anos <= 5) {
+                console.log('Pleno.');
+            } else {
+                console.log('Senior.');
+            }
+        } 
+
+        experiencia(2);
+        experiencia(0);
+        experiencia(1);
+        experiencia(20);
+        experiencia(4);
+
+    </script>
+</body>
+</html>
